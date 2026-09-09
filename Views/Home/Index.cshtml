@@ -1,0 +1,31 @@
+@{
+    ViewData["Title"] = "Início";
+}
+<section class="hero">
+    <div>
+        <span class="eyebrow">TRABALHO PRÁTICO · UVV</span>
+        <h1>Gestão de consultas de forma simples e segura.</h1>
+        <p>Cadastre sua conta, faça login e gerencie suas consultas em uma aplicação MVC com Entity Framework Core e SQL Server.</p>
+        <div class="hero-actions">
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <a class="btn primary" asp-controller="Consultas" asp-action="Index">Ver minhas consultas</a>
+            }
+            else
+            {
+                <a class="btn primary" asp-controller="Account" asp-action="Register">Começar agora</a>
+                <a class="btn secondary" asp-controller="Account" asp-action="Login">Já tenho conta</a>
+            }
+        </div>
+    </div>
+    <div class="hero-card">
+        <div class="card-icon">✓</div>
+        <h3>Arquitetura MVC</h3>
+        <p>Models, Views e Controllers separados, com injeção de dependência e persistência via EF Core.</p>
+    </div>
+</section>
+<section class="features">
+    <article><h3>Cadastro</h3><p>Criação de usuário com validações no servidor.</p></article>
+    <article><h3>Autenticação</h3><p>Login com cookie e senha armazenada com hash.</p></article>
+    <article><h3>CRUD</h3><p>Cadastre, visualize, edite e exclua suas consultas.</p></article>
+</section>

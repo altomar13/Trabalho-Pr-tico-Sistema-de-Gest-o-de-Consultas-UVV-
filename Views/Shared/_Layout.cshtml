@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - UVV Consultas</title>
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body>
+<header>
+    <nav class="navbar">
+        <a class="brand" asp-controller="Home" asp-action="Index">UVV Consultas</a>
+        <div class="nav-links">
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <span class="welcome">Olá, @User.Identity.Name</span>
+                <a asp-controller="Consultas" asp-action="Index">Minhas consultas</a>
+                <a asp-controller="Consultas" asp-action="Create">Nova consulta</a>
+                <form asp-controller="Account" asp-action="Logout" method="post" class="inline-form">
+                    @Html.AntiForgeryToken()
+                    <button type="submit" class="link-button">Sair</button>
+                </form>
+            }
+            else
+            {
+                <a asp-controller="Account" asp-action="Login">Entrar</a>
+                <a class="nav-cta" asp-controller="Account" asp-action="Register">Criar conta</a>
+            }
+        </div>
+    </nav>
+</header>
+<main class="container">
+    @if (TempData["Success"] is string success)
+    {
+        <div class="alert success">@success</div>
+    }
+    @RenderBody()
+</main>
+<footer>
+    <div class="container footer-inner">Sistema de Gestão de Consultas UVV · ASP.NET Core MVC + EF Core</div>
+</footer>
+<script src="~/js/site.js" asp-append-version="true"></script>
+@await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
