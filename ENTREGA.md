@@ -1,5 +1,3 @@
-# Modelo de informações para o PDF de entrega
-
 ## Trabalho Prático — Sistema de Gestão de Consultas UVV
 
 **Disciplina:** Desenvolvimento Web Back-end
@@ -9,15 +7,13 @@
 1. Ian Loss Fernandes
 2. Victor Ferreira Altomar
 
-> Manter os nomes em ordem alfabética.
-
 ### Repositório GitHub
 
-PREENCHER COM O LINK DO REPOSITÓRIO
+https://github.com/altomar13/Trabalho-Pr-tico-Sistema-de-Gest-o-de-Consultas-UVV-
 
 ### Vídeo demonstrativo
 
-PREENCHER COM O LINK DO LOOM/YOUTUBE
+https://youtu.be/_sNSuYnJjvU
 
 ### Funcionalidades apresentadas
 
