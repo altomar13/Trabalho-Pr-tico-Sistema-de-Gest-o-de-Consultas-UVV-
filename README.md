@@ -69,7 +69,7 @@ dotnet ef database update
 dotnet run
 ```
 
-Depois, acesse a URL apresentada no terminal, normalmente `https://localhost:7154` ou `http://localhost:5154`.
+Acesse a host normalmente.
 
 ## Fluxo de demonstração
 
