@@ -138,19 +138,16 @@ SistemaGestaoConsultasUVV/
 | GET | `/Consultas/Delete/{id}` | Confirma exclusão |
 | POST | `/Consultas/Delete/{id}` | Exclui consulta |
 
-## Vídeo demonstrativo obrigatório
+## Vídeo demonstrativo 
 
-**https://youtu.be/_sNSuYnJjvU**
+https://youtu.be/DjDrOlIG7tA
 
-O vídeo deve mostrar pelo menos: **cadastro, login e registro de consulta**. Para uma demonstração mais completa, mostre também edição, exclusão e logout.
+ **cadastro, login e registro de consulta**. Para uma demonstração mais completa, mostre também edição, exclusão e logout.
 
 ## Entrega em PDF
 
-No PDF do portal, informe os integrantes do grupo em ordem alfabética e o link do repositório GitHub.
-
 - Integrantes: **Ian Loss Fernandes, Victor Ferreira Altomar**
 - Repositório: https://github.com/altomar13/Trabalho-Pr-tico-Sistema-de-Gest-o-de-Consultas-UVV-
-
 
 ## Observação acadêmica
 
