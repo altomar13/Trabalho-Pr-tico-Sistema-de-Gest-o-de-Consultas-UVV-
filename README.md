@@ -55,7 +55,6 @@ Na pasta do projeto:
 
 ```bash
 dotnet restore
-dotnet tool install --global dotnet-ef --version 8.0.20
 dotnet ef database update
 dotnet run
 ```
@@ -141,9 +140,7 @@ SistemaGestaoConsultasUVV/
 
 ## Vídeo demonstrativo obrigatório
 
-Substitua o endereço abaixo pelo vídeo gravado no Loom, YouTube ou serviço similar:
-
-**[VÍDEO DEMONSTRATIVO - inserir link aqui](https://example.com/SEU-VIDEO-AQUI)**
+**https://youtu.be/_sNSuYnJjvU**
 
 O vídeo deve mostrar pelo menos: **cadastro, login e registro de consulta**. Para uma demonstração mais completa, mostre também edição, exclusão e logout.
 
@@ -151,9 +148,9 @@ O vídeo deve mostrar pelo menos: **cadastro, login e registro de consulta**. Pa
 
 No PDF do portal, informe os integrantes do grupo em ordem alfabética e o link do repositório GitHub.
 
-- Integrantes: **PREENCHER**
-- Repositório: **PREENCHER**
-- Vídeo: **PREENCHER**
+- Integrantes: **Ian Loss Fernandes, Victor Ferreira Altomar**
+- Repositório: https://github.com/altomar13/Trabalho-Pr-tico-Sistema-de-Gest-o-de-Consultas-UVV-
+
 
 ## Observação acadêmica
 
