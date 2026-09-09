@@ -13,7 +13,7 @@ https://github.com/altomar13/Trabalho-Pr-tico-Sistema-de-Gest-o-de-Consultas-UVV
 
 ### Vídeo demonstrativo
 
-https://youtu.be/_sNSuYnJjvU
+https://youtu.be/DjDrOlIG7tA
 
 ### Funcionalidades apresentadas
 
